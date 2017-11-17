@@ -1,0 +1,123 @@
+body {
+  background: #333;
+}
+.book-grade-app {
+  margin: 20px auto;
+  padding: 20px;
+  width: 70%;
+  background:  #fff;
+  border-radius: 10px;
+}
+.book-item {
+  overflow: hidden;
+  height: auto;
+}
+.book-list {
+  overflow: hidden;
+  position: relative;
+}
+.book-list .book {
+  overflow: hidden;
+  border-bottom: 1px dotted #ccc;
+  margin: 20px;
+}
+.book-list .book p {
+  margin: 5px 0;
+  padding: 5px 0;
+}
+.book-list .book .book-basic-info {
+  overflow: hidden;
+}
+.book-list .book .book-name {
+  float: left;
+  width: 30%;
+}
+.book-list .book .book-name span {
+  font-weight: bold;
+}
+.book-list .book .book-name span:before {
+  content: '『 ';
+  font-weight: normal;
+}
+.book-list .book .book-name span:after {
+  content: ' 』';
+  font-weight: normal;
+}
+.book-list .book .book-author {
+  float: left;
+  width: 40%;
+  margin-left: 30px;
+}
+.book-list .book .book-author sub {
+  font-size: 10px;
+  color: orange;
+}
+.book-list .book .book-grade {
+  float: left;
+  width: 30%;
+}
+.book-list .book .book-grade span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 2px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.book-list .book .book-score {
+  float: left;
+  width: 20%;
+}
+.book-list .book .book-score span {
+  color: steelblue;
+}
+.light-on {
+  background: url('love1.png');
+}
+.light-off {
+  background: url('love0.png');
+}
+.book-action {
+  overflow: hidden;
+}
+.book-list .book .book-delete {
+  float: left;
+  width: 40%;
+  margin-left: 30px;
+}
+.book-list .book .book-delete span {
+  background: steelblue;
+  color: #fff;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background: url('trash_4.png');
+}
+
+.book-add {
+  padding: 10px 0;
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+}
+.book-add .book-add-item {
+  width: 33%;
+  float: left;
+}
+.book-add .book-add-item input {
+  width: 80%;
+  height: 30px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.book-add .book-add-btn input {
+  width: 80px;
+  height: 30px;
+  border: 1px solid steelblue;
+  color: #fff;
+  background: steelblue;
+}
